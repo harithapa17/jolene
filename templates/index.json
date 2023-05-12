@@ -6,22 +6,22 @@
         "template--18905213468956__93ca4dad-66c6-4106-9c33-360ad86f1ea9-168388505326d07875-0": {
           "type": "heading",
           "settings": {
-            "heading": "Custom Liquid",
+            "heading": "Surreal Fairytail",
             "heading_size": "h1"
           }
         },
         "template--18905213468956__93ca4dad-66c6-4106-9c33-360ad86f1ea9-168388505326d07875-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Midnight At Ariccia<\/p>",
             "text_style": "body"
           }
         },
         "template--18905213468956__93ca4dad-66c6-4106-9c33-360ad86f1ea9-168388505326d07875-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/collections"
           }
         }
       },
