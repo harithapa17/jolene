@@ -4,6 +4,34 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "c8f48d15-c877-4197-b47e-637e56d771b1": {
+          "type": "text",
+          "settings": {
+            "heading": "<em><strong>Shopping with us<\/strong><\/em>",
+            "subtext": "<p><a href=\"https:\/\/jolenefashion.myshopify.com\/?#\" title=\"#\">Create An Account<\/a><\/p><p><a href=\"https:\/\/jolenefashion.myshopify.com\/?#\" title=\"#\">Payments and Offers<\/a><\/p><p><a href=\"https:\/\/jolenefashion.myshopify.com\/?#\" title=\"#\">Size Guides<\/a><\/p><p><a href=\"https:\/\/jolenefashion.myshopify.com\/?#\" title=\"#\">Site Map<\/a><\/p>"
+          }
+        },
+        "a19cb69b-6a57-4b52-96be-daa59476c557": {
+          "type": "text",
+          "settings": {
+            "heading": "<em><strong>Legal <\/strong><\/em>",
+            "subtext": "<p><a href=\"https:\/\/jolenefashion.myshopify.com\/?#\" title=\"#\">Terms & Conditions<\/a><\/p><p><a href=\"https:\/\/jolenefashion.myshopify.com\/?#\" title=\"#\">Privacy & Cookies<\/a><\/p><p><a href=\"https:\/\/jolenefashion.myshopify.com\/?#\" title=\"#\">Returns & Funds<\/a><\/p><p><a href=\"https:\/\/jolenefashion.myshopify.com\/?#\" title=\"#\">Certificates & Licences<\/a><\/p>"
+          }
+        },
+        "394fc699-3df2-4f5a-b8f3-275b077d5e7d": {
+          "type": "text",
+          "settings": {
+            "heading": "<em><strong>Here to help<\/strong><\/em>",
+            "subtext": "<p><a href=\"https:\/\/jolenefashion.myshopify.com\/?#\" title=\"#\">Delivery<\/a><\/p><p><a href=\"https:\/\/jolenefashion.myshopify.com\/?#\" title=\"#\">Track My Order<\/a><\/p><p><a href=\"https:\/\/jolenefashion.myshopify.com\/?#\" title=\"#\">Returns & Funds<\/a><\/p><p><a href=\"https:\/\/jolenefashion.myshopify.com\/?#\" title=\"#\">Help & Contact Us<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "c8f48d15-c877-4197-b47e-637e56d771b1",
+        "a19cb69b-6a57-4b52-96be-daa59476c557",
+        "394fc699-3df2-4f5a-b8f3-275b077d5e7d"
+      ],
       "settings": {
         "color_scheme": "background-1",
         "newsletter_enable": false,
