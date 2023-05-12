@@ -33,8 +33,8 @@
       "settings": {
         "custom_liquid": "<video data-lazy-video=\"\" data-video-autoplay=\"\" playsinline=\"\" autoplay=\"\" loop=\"\" muted=\"\" title=\"\">\n            <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8f911ae020084185a1b11b5e6e55d5d2.mp4\" data-src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8f911ae020084185a1b11b5e6e55d5d2.mp4\">\n            Sorry, your browser doesn't support embedded videos. \n        <\/video>",
         "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "image_banner": {
