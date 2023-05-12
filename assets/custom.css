@@ -1,0 +1,119 @@
+.button,
+.shopify-challenge__button,
+.customer button {
+  opacity: 1 !important;
+  margin-top: 2rem;
+  min-height: 3rem;
+  padding: 0 1.5rem !important;
+}
+
+.button:before,
+.button:after {
+  display: none;
+}
+.banner_video {
+  position: relative;
+  margin-top: -140px;
+}
+.banner-text {
+  position: absolute;
+  bottom: 1rem;
+  padding: 3rem;
+}
+.banner-text h1 {
+  color: #fff;
+  margin: 0;
+  font-style: italic;
+}
+.banner-text h2,
+.custom-text h2,
+.custom-text p {
+  color: #fff;
+  font-style: italic;
+}
+.banner-text .button {
+  min-height: 3rem;
+  background: #fff;
+  color: #000;
+}
+.custom-text a {
+  background-color: #fff;
+  opacity: 1 !important;
+  color: #000;
+}
+.custom-text a:before,
+.custom-text a:after {
+  display: none;
+}
+.banner_video video {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+.banner__text p {
+  font-size: 25px;
+  font-weight: 500;
+}
+.announcement-bar__message {
+  font-style: italic;
+}
+.banner__box {
+  padding: 0;
+}
+body .image-with-text__content > * + * {
+  margin-top: 0;
+}
+body .image-with-text__content .image-with-text__text + .button {
+  margin-top: 1rem;
+  min-height: 3rem;
+  padding: 0 1.5rem !important;
+}
+.header-wrapper.gradient {
+  background: transparent;
+  border: none;
+}
+.scrolled-past-header .header-wrapper.gradient,
+.header-wrapper.gradient:hover {
+  background: #fff;
+}
+.header-wrapper .list-menu__item,
+.list-menu__item span,
+.header__heading span.h2,
+.header__icon,
+.header__icon--cart .icon {
+  color: #fff;
+}
+.header-wrapper.gradient:hover .header__heading span.h2,
+.header-wrapper.gradient:hover .list-menu__item,
+.header-wrapper.gradient:hover .list-menu__item span,
+.header-wrapper.gradient:hover .header__icon,
+.header-wrapper.gradient:hover .header__icon--cart .icon,
+.scrolled-past-header .header__icon,
+.scrolled-past-header .header__icon--cart .icon,
+.scrolled-past-header .list-menu__item,
+.scrolled-past-header .list-menu__item span,
+.scrolled-past-header .header__heading span.h2 {
+  color: #000;
+}
+@media (max-width: 989.5px) {
+  .banner_video {
+    margin-top: -57px;
+  }
+  .banner_video video {
+    height: 95vh;
+  }
+}
+
+/* product listing  */
+
+.contains-media.grid {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: normal;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.product .contains-media.grid li {
+  width: 50% !important;
+  max-width: 50% !important;
+}
