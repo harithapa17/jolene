@@ -49,7 +49,7 @@
             "subheading": "",
             "button_label": "",
             "link": "",
-            "button_style_secondary": false,
+            "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
@@ -83,7 +83,7 @@
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "medium",
+        "slide_height": "large",
         "slider_visual": "counter",
         "auto_rotate": true,
         "change_slides_speed": 3,
