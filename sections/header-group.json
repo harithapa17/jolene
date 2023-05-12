@@ -24,6 +24,18 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "9db21685-1773-40c6-ae42-f9ecfbb01b8e": {
+          "type": "blogs",
+          "settings": {
+            "blogs": "<a href=\"#\" title=\"#\">Blog<\/a>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "9db21685-1773-40c6-ae42-f9ecfbb01b8e"
+      ],
       "settings": {
         "logo_position": "middle-left",
         "menu": "main-menu",
