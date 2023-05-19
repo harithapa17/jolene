@@ -1,4 +1,4 @@
-.button,
+/* .button,
 .shopify-challenge__button,
 .customer button {
   opacity: 1 !important;
@@ -104,7 +104,7 @@ body .image-with-text__content .image-with-text__text + .button {
   }
 }
 
-/* product listing  */
+/* product listing  
 
 .contains-media.grid {
   display: flex;
@@ -116,4 +116,45 @@ body .image-with-text__content .image-with-text__text + .button {
 .product .contains-media.grid li {
   width: 50% !important;
   max-width: 50% !important;
+}
+*/
+.header__icon {
+  display: flex;
+}
+.header.header--middle-left {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.custom-mega-menu-wrap {
+  display: flex;
+  padding: 0 64px;
+}
+.collection-image-wrap {
+  width: 300px;
+}
+.collection-image-wrap a {
+  position: relative;
+  padding: 0;
+}
+.collection-image-wrap .collection-image-info {
+  position: absolute;
+  bottom: 50px;
+  left: 40px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.custom-mega-menu-wrap .mega-menu__list {
+  display: block;
+  flex: 1;
+  column-count: 4;
+}
+.custom-mega-menu-wrap .mega-menu__list > li {
+  display: inline-block;
+  margin: 0 0 30px;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+  width: 100%;
 }

@@ -14,7 +14,7 @@
 {%- if section.settings.enable_country_selector or section.settings.enable_language_selector -%}
   {{ 'component-localization-form.css' | asset_url | stylesheet_tag: preload: true }}
 {%- endif -%}
-
+<link rel="stylesheet" href="{{ 'custom.css' | asset_url }}">
 {%- if settings.cart_type == "drawer" -%}
   {{ 'component-cart-drawer.css' | asset_url | stylesheet_tag }}
   {{ 'component-cart.css' | asset_url | stylesheet_tag }}
@@ -540,15 +540,35 @@
                     <details id="Details-HeaderMenu-{{ forloop.index }}" class="mega-menu">
                       <summary class="header__menu-item list-menu__item link focus-inset">
                         <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
-                        {% render 'icon-caret' %}
                       </summary>
                       <div id="MegaMenu-Content-{{ forloop.index }}" class="mega-menu__content gradient motion-reduce global-settings-popup" tabindex="-1">
-                        <ul class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}" role="list">
-                          {%- for childlink in link.links -%}
+                        <div class="custom-mega-menu-wrap">
+                        {% assign collection_title = link.url | replace: "/collections/", "" %}                          
+                          {% assign my_collection = collections[collection_title] %}
+                              {% if my_collection %}
+                                  {% if my_collection.image %}                                    
+                                      <div class="collection-image-wrap">       
+                                        <a href="{{ link.url }}" class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if childlink.current %} list-menu__item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>                        
+                                      <img
+                                          src="{{ my_collection.image | image_url: width: 140 }}"
+                                          alt="{{ my_collection.image.alt | escape }}"
+                                          width="250"
+                                          height="{{ 250 | divided_by: my_collection.image.aspect_ratio | ceil }}"
+                                          loading="lazy"
+                                      >
+                                      <div class="collection-image-info">
+                                        <span class="collection-name">Editorial Fall Collection</span>                                
+                                        <span class="collection-link">Shop Now</span>
+                                      </div>                                      
+                                  </a>
+                                </div> 
+                            {% endif %}
+                          {% endif %}
+                        <ul class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}" role="list">                          
+                         {%- for childlink in link.links -%}
                             <li>
-                              <a href="{{ childlink.url }}" class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
-                                {{ childlink.title | escape }}
-                              </a>
+                            <span>{{ childlink.title | escape }}</span>     
+                            
                               {%- if childlink.links != blank -%}
                                 <ul class="list-unstyled" role="list">
                                   {%- for grandchildlink in childlink.links -%}
@@ -563,6 +583,7 @@
                             </li>
                           {%- endfor -%}
                         </ul>
+                        </div>
                       </div>
                     </details>
                   </header-menu>
@@ -608,7 +629,7 @@
       {%- endif -%}
     {%- endif -%}
 
-    <div class="header__icons{% if section.settings.enable_country_selector or section.settings.enable_language_selector %} header__icons--localization header__localization{% endif %}">
+     <div class="header__icons{% if section.settings.enable_country_selector or section.settings.enable_language_selector %} header__icons--localization header__localization{% endif %}">
       <div class="desktop-localization-wrapper">
         {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
           <localization-form class="small-hide medium-hide">
@@ -642,9 +663,6 @@
       <details-modal class="header__search">
         <details>
           <summary class="header__icon header__icon--search header__icon--summary link focus-inset modal__toggle" aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}">
-           <span>
-              Search
-           </span>
            <span>
               <svg class="modal__toggle-open icon icon-search" aria-hidden="true" focusable="false">
                 <use href="#icon-search">
@@ -764,7 +782,7 @@
           </div>
         {%- endif -%}
       </a>
-    </div>
+    </div> 
   </header>
 </{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>
 
@@ -1135,26 +1153,6 @@
           "id": "blogs",
           "default": "Blog",
           "label": "Add Your Blog"
-        },
-        {
-          "type": "select",
-          "id": "heading_size",
-          "options": [
-            {
-              "value": "h2",
-              "label": "t:sections.all.heading_size.options__1.label"
-            },
-            {
-              "value": "h1",
-              "label": "t:sections.all.heading_size.options__2.label"
-            },
-            {
-              "value": "h0",
-              "label": "t:sections.all.heading_size.options__3.label"
-            }
-          ],
-          "default": "h1",
-          "label": "t:sections.all.heading_size.label"
         }
       ]
     }

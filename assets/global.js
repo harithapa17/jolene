@@ -6,20 +6,18 @@ function getFocusableElements(container) {
   );
 }
 
-document.querySelectorAll('[id^="Details-"] summary').forEach((summary) => {
-  summary.setAttribute('role', 'button');
-  summary.setAttribute('aria-expanded', summary.parentNode.hasAttribute('open'));
-
-  if (summary.nextElementSibling.getAttribute('id')) {
-    summary.setAttribute('aria-controls', summary.nextElementSibling.id);
-  }
-
-  summary.addEventListener('click', (event) => {
-    event.currentTarget.setAttribute('aria-expanded', !event.currentTarget.closest('details').hasAttribute('open'));
+var mega_menus = document.querySelectorAll('.mega-menu');
+mega_menus.forEach((mega_menu) => {
+  mega_menu.addEventListener('mouseover', (event) => {
+    const details = event.currentTarget.closest('details');
+    details.setAttribute('open', '');
+    event.currentTarget.setAttribute('aria-expanded', true);
   });
-
-  if (summary.closest('header-drawer, menu-drawer')) return;
-  summary.parentElement.addEventListener('keyup', onKeyUpEscape);
+  mega_menu.addEventListener('mouseout', (event) => {
+    const details = event.currentTarget.closest('details');
+    details.removeAttribute('open', '');
+    event.currentTarget.setAttribute('aria-expanded', false);
+  });
 });
 
 const trapFocusHandlers = {};
