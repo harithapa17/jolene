@@ -4,6 +4,7 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
+      "disabled": true,
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
@@ -17,17 +18,31 @@
       },
       "block_order": [
         "announcement-bar-0"
-      ]
+      ],
+      "settings": {
+      }
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "9db21685-1773-40c6-ae42-f9ecfbb01b8e": {
+          "type": "blogs",
+          "settings": {
+            "blogs": "<a href=\"#\" title=\"#\">Blog<\/a>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "9db21685-1773-40c6-ae42-f9ecfbb01b8e"
+      ],
       "settings": {
-        "color_scheme": "background-1",
         "logo_position": "middle-left",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
+        "color_scheme": "background-1",
         "enable_country_selector": true,
         "enable_language_selector": true,
         "mobile_logo_position": "center",

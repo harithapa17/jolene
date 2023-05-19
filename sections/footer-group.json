@@ -5,21 +5,46 @@
     "footer": {
       "type": "footer",
       "blocks": {
+<<<<<<< HEAD
         "footer-2": {
+=======
+        "c8f48d15-c877-4197-b47e-637e56d771b1": {
+>>>>>>> fea4157cf6665c0690bd9a09ae793ae4f84f74ff
           "type": "text",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "heading": "<em><strong>Shopping with us<\/strong><\/em>",
+            "subtext": "<p><a href=\"https:\/\/jolenefashion.myshopify.com\/?#\" title=\"#\">Create An Account<\/a><\/p><p><a href=\"https:\/\/jolenefashion.myshopify.com\/?#\" title=\"#\">Payments and Offers<\/a><\/p><p><a href=\"https:\/\/jolenefashion.myshopify.com\/?#\" title=\"#\">Size Guides<\/a><\/p><p><a href=\"https:\/\/jolenefashion.myshopify.com\/?#\" title=\"#\">Site Map<\/a><\/p>"
+          }
+        },
+        "394fc699-3df2-4f5a-b8f3-275b077d5e7d": {
+          "type": "text",
+          "settings": {
+            "heading": "<em><strong>Here to help<\/strong><\/em>",
+            "subtext": "<p><a href=\"https:\/\/jolenefashion.myshopify.com\/?#\" title=\"#\">Delivery<\/a><\/p><p><a href=\"https:\/\/jolenefashion.myshopify.com\/?#\" title=\"#\">Track My Order<\/a><\/p><p><a href=\"https:\/\/jolenefashion.myshopify.com\/?#\" title=\"#\">Returns & Funds<\/a><\/p><p><a href=\"https:\/\/jolenefashion.myshopify.com\/?#\" title=\"#\">Help & Contact Us<\/a><\/p>"
+          }
+        },
+        "a19cb69b-6a57-4b52-96be-daa59476c557": {
+          "type": "text",
+          "settings": {
+            "heading": "<em><strong>Legal <\/strong><\/em>",
+            "subtext": "<p><a href=\"https:\/\/jolenefashion.myshopify.com\/?#\" title=\"#\">Terms & Conditions<\/a><\/p><p><a href=\"https:\/\/jolenefashion.myshopify.com\/?#\" title=\"#\">Privacy & Cookies<\/a><\/p><p><a href=\"https:\/\/jolenefashion.myshopify.com\/?#\" title=\"#\">Returns & Funds<\/a><\/p><p><a href=\"https:\/\/jolenefashion.myshopify.com\/?#\" title=\"#\">Certificates & Licences<\/a><\/p>"
           }
         }
       },
       "block_order": [
+<<<<<<< HEAD
         "footer-0"
+=======
+        "c8f48d15-c877-4197-b47e-637e56d771b1",
+        "394fc699-3df2-4f5a-b8f3-275b077d5e7d",
+        "a19cb69b-6a57-4b52-96be-daa59476c557"
+>>>>>>> fea4157cf6665c0690bd9a09ae793ae4f84f74ff
       ],
       "settings": {
         "color_scheme": "background-1",
-        "newsletter_enable": true,
+        "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,

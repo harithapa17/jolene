@@ -1,210 +1,174 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "93ca4dad-66c6-4106-9c33-360ad86f1ea9": {
+      "type": "custom-liquid",
       "blocks": {
-        "heading": {
+        "template--18905213468956__93ca4dad-66c6-4106-9c33-360ad86f1ea9-168388505326d07875-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Surreal Fairytail",
             "heading_size": "h1"
           }
         },
-        "text": {
+        "template--18905213468956__93ca4dad-66c6-4106-9c33-360ad86f1ea9-168388505326d07875-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<h2><em>Midnight At Ariccia<\/em><\/h2>",
+            "text_style": "body"
+          }
+        },
+        "template--18905213468956__93ca4dad-66c6-4106-9c33-360ad86f1ea9-168388505326d07875-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/collections"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "template--18905213468956__93ca4dad-66c6-4106-9c33-360ad86f1ea9-168388505326d07875-0",
+        "template--18905213468956__93ca4dad-66c6-4106-9c33-360ad86f1ea9-168388505326d07875-1",
+        "template--18905213468956__93ca4dad-66c6-4106-9c33-360ad86f1ea9-168388505326d07875-2"
       ],
       "settings": {
+        "custom_liquid": "<video data-lazy-video=\"\" data-video-autoplay=\"\" playsinline=\"\" autoplay=\"\" loop=\"\" muted=\"\" title=\"\">\n            <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8f911ae020084185a1b11b5e6e55d5d2.mp4\" data-src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8f911ae020084185a1b11b5e6e55d5d2.mp4\">\n            Sorry, your browser doesn't support embedded videos. \n        <\/video>",
         "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "collage": {
-      "type": "collage",
+    "979962f5-fef7-499d-9483-04e2c6455da0": {
+      "type": "slideshow",
       "blocks": {
-        "collection-0": {
-          "type": "collection",
+        "67cf38ea-b409-4a5b-a76d-74a9a08edd6b": {
+          "type": "slide",
           "settings": {
-            "collection": ""
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-05-15_174136.png",
+            "heading": "This is Jolen",
+            "heading_size": "h1",
+            "subheading": "<em>By Ruchi <\/em>",
+            "button_label": "Discover",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
           }
         },
-        "product": {
-          "type": "product",
+        "template--18905213468956__979962f5-fef7-499d-9483-04e2c6455da0-16838855567dee0c71-0": {
+          "type": "slide",
           "settings": {
-            "product": "",
-            "second_image": false
+            "image": "shopify:\/\/shop_images\/product-2.webp",
+            "heading": "<em>This is Jolen<\/em>",
+            "heading_size": "h1",
+            "subheading": "<em>By Ruchi<\/em>",
+            "button_label": "Discover",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
           }
         },
-        "collection-1": {
-          "type": "collection",
+        "template--18905213468956__979962f5-fef7-499d-9483-04e2c6455da0-16838855567dee0c71-1": {
+          "type": "slide",
           "settings": {
-            "collection": ""
+            "image": "shopify:\/\/shop_images\/banner-mid.webp",
+            "heading": "<em>This is Jolen<\/em>",
+            "heading_size": "h1",
+            "subheading": "<em>By Ruchi<\/em>",
+            "button_label": "Discover",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
+        "67cf38ea-b409-4a5b-a76d-74a9a08edd6b",
+        "template--18905213468956__979962f5-fef7-499d-9483-04e2c6455da0-16838855567dee0c71-0",
+        "template--18905213468956__979962f5-fef7-499d-9483-04e2c6455da0-16838855567dee0c71-1"
       ],
       "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": true,
+        "change_slides_speed": 3,
+        "image_behavior": "ambient",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "heading_size": "h1",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
+    "c34e8ec7-7add-4e82-a17a-b8ff465a868b": {
+      "type": "collection-list",
       "blocks": {
-        "column1": {
-          "type": "column",
+        "template--18905213468956__c34e8ec7-7add-4e82-a17a-b8ff465a868b-16841317619d629c18-0": {
+          "type": "featured_collection",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "collection": "big-sale"
           }
         },
-        "column2": {
-          "type": "column",
+        "template--18905213468956__c34e8ec7-7add-4e82-a17a-b8ff465a868b-16841317619d629c18-1": {
+          "type": "featured_collection",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "collection": "bags"
           }
         },
-        "column3": {
-          "type": "column",
+        "template--18905213468956__c34e8ec7-7add-4e82-a17a-b8ff465a868b-16841317619d629c18-2": {
+          "type": "featured_collection",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "collection": "watches"
+          }
+        },
+        "c77f4f03-94c8-4c4e-904f-c4c7d95a0637": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ready-to-wear"
+          }
+        },
+        "9fdf2a14-76c1-482c-abb1-bb845e6fbcf8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "accessories"
           }
         }
       },
       "block_order": [
-        "column1",
-        "column2",
-        "column3"
+        "template--18905213468956__c34e8ec7-7add-4e82-a17a-b8ff465a868b-16841317619d629c18-0",
+        "template--18905213468956__c34e8ec7-7add-4e82-a17a-b8ff465a868b-16841317619d629c18-1",
+        "template--18905213468956__c34e8ec7-7add-4e82-a17a-b8ff465a868b-16841317619d629c18-2",
+        "c77f4f03-94c8-4c4e-904f-c4c7d95a0637",
+        "9fdf2a14-76c1-482c-abb1-bb845e6fbcf8"
       ],
       "settings": {
         "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
+        "heading_size": "h0",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false,
         "color_scheme": "background-1",
+        "show_view_all": true,
         "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
-    "image_banner",
-    "rich_text",
-    "featured_collection",
-    "collage",
-    "video",
-    "multicolumn"
+    "93ca4dad-66c6-4106-9c33-360ad86f1ea9",
+    "979962f5-fef7-499d-9483-04e2c6455da0",
+    "c34e8ec7-7add-4e82-a17a-b8ff465a868b"
   ]
 }
