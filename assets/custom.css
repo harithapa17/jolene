@@ -167,4 +167,15 @@ video::-webkit-media-controls-overlay-play-button,
 video::-webkit-media-controls-start-playback-button {
     display: none !important;
 }
+video::-moz-media-controls-panel {
+    display: none !important;
+}
+
+video::-moz-media-controls-playbutton {
+    display: none !important;
+}
+
+video::-moz-media-controls-overlay-play-button {
+    display: none !important;
+}
 
