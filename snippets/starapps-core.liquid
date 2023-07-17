@@ -1,8 +1,14 @@
 <!-- starapps_core_start -->
 <!-- This code is automatically managed by StarApps Studio -->
 <!-- Please contact support@starapps.studio for any help -->
-<!-- File location: snippets/starapps-core.liquid -->
-<script type="text/javascript" src="https://assets-cdn.starapps.studio/apps/vsk/jolenefashion/script-58440-1689592936.js?shop={{shop.permanent_domain}}" defer></script>
+<!-- File location: snippets/starapps-core.liquid -->{% comment %} meta_information_start {% endcomment %}
+{% comment %}Locale, Currency and other meta data of the store{% endcomment %}
+<script type="application/json" sa-language-info="true" data-no-instant="true">{{ newline }}{"current_language":"{{ shop.locale | escape }}", "default_language":"{%- for locale in shop.published_locales -%}{%- if locale.primary -%}{{ locale.iso_code | escape }}{%- endif -%}{%- endfor -%}", "money_format":{{ shop.money_format | json }}}{{ newline }}</script>
+{% comment %} meta_information_end {% endcomment %}
+    
+
+<script type="text/javascript" src="https://assets-cdn.starapps.studio/apps/vsk/jolenefashion/data-1689593326-W4WP5wbHgwMS.js?shop={{shop.permanent_domain}}" defer></script>
+<script type="text/javascript" src="https://assets-cdn.starapps.studio/apps/vsk/jolenefashion/script-58440-1689593722.js?shop={{shop.permanent_domain}}" defer></script>
 
 
 <!-- VSK_PRE_APP_HIDE_CODE -->
@@ -54,13 +60,4 @@
 {% endif %}
 <!-- VSK_PRE_APP_HIDE_CODE_END -->
     
-
-
-{% comment %} meta_information_start {% endcomment %}
-{% comment %}Locale, Currency and other meta data of the store{% endcomment %}
-<script type="application/json" sa-language-info="true" data-no-instant="true">{{ newline }}{"current_language":"{{ shop.locale | escape }}", "default_language":"{%- for locale in shop.published_locales -%}{%- if locale.primary -%}{{ locale.iso_code | escape }}{%- endif -%}{%- endfor -%}", "money_format":{{ shop.money_format | json }}}{{ newline }}</script>
-{% comment %} meta_information_end {% endcomment %}
-    
-
-<script type="text/javascript" src="https://assets-cdn.starapps.studio/apps/vsk/jolenefashion/data-1689593326-W4WP5wbHgwMS.js?shop={{shop.permanent_domain}}" defer></script>
 <!-- starapps_core_end -->
