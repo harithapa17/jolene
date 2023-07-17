@@ -158,24 +158,4 @@ body .image-with-text__content .image-with-text__text + .button {
   break-inside: avoid;
   width: 100%;
 }
-video::-webkit-media-controls-panel,
-video::-webkit-media-controls {
-    display: none !important;
-}
-
-video::-webkit-media-controls-overlay-play-button,
-video::-webkit-media-controls-start-playback-button {
-    display: none !important;
-}
-video::-moz-media-controls-panel {
-    display: none !important;
-}
-
-video::-moz-media-controls-playbutton {
-    display: none !important;
-}
-
-video::-moz-media-controls-overlay-play-button {
-    display: none !important;
-}
 
