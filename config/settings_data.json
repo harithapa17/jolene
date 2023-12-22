@@ -140,7 +140,20 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "starapps-vsk": {
+        "type": "shopify:\/\/apps\/swatch-king-variants-options\/blocks\/variant-swatch-king\/0850b1e4-ba30-4a0d-a8f4-f9a939276d7d",
+        "disabled": false,
+        "settings": {
+          "enable": true,
+          "alignment": "left",
+          "swatch_location": "After price",
+          "switch_on_hover": true,
+          "preselect_variant": false
+        }
+      }
+    }
   },
   "presets": {
     "Default": {
